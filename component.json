@@ -1,0 +1,13 @@
+{
+  "name": "is-email",
+  "repo": "segmentio/is-email",
+  "description": "Component: loosely validate an email address.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
