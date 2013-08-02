@@ -5,8 +5,5 @@
   "version": "0.1.1",
   "keywords": ["validate", "email", "regexp", "regex"],
   "license": "MIT",
-  "development": {
-    "component/assert": "*"
-  },
   "scripts": ["index.js"]
 }
