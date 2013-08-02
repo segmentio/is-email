@@ -1,12 +1,15 @@
-
 # is-email
 
   Loosely validate an email address.
 
 ## Installation
   
-    $ component install segmentio/is-email
-    $ npm install is-email
+```
+$ component install segmentio/is-email
+```
+```
+$ npm install is-email
+```
 
 ## API
 
