@@ -1,17 +1,18 @@
 
 # is-email
 
-  Component: loosely validate an email address.
+  Loosely validate an email address.
 
 ## Installation
-
+  
     $ component install segmentio/is-email
+    $ npm install is-email
 
 ## API
 
 ### isEmail(string)
 
-  Checks (loosely) whether the `string` is an email address.
+  Loosely checks whether a `string` is an email address.
 
 ## License
 
