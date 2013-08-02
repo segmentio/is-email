@@ -1,6 +1,6 @@
 {
   "name": "is-email",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "https://github.com/segmentio/is-email.git",
   "devDependencies": {
     "mocha": "*",
