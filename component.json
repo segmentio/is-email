@@ -1,9 +1,0 @@
-{
-  "name": "is-email",
-  "repo": "segmentio/is-email",
-  "description": "Loosely validate an email address.",
-  "version": "0.1.1",
-  "keywords": ["validate", "email", "regexp", "regex"],
-  "license": "MIT",
-  "scripts": ["index.js"]
-}
