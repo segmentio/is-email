@@ -59,7 +59,7 @@ ISTANBUL_FLAGS := \
 
 # Install node modules.
 node_modules: package.json $(wildcard node_modules/*/package.json)
-	@npm install
+	@yarn install --freeze-lockfile
 	@touch $@
 
 # Install dependencies.
