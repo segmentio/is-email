@@ -33,34 +33,29 @@ var customLaunchers = {
     browserName: 'safari',
     version: '9.0'
   },
-  sl_ie_7: {
-    base: 'SauceLabs',
-    browserName: 'internet explorer',
-    version: '7'
-  },
-  sl_ie_8: {
-    base: 'SauceLabs',
-    browserName: 'internet explorer',
-    version: '8'
-  },
   sl_ie_9: {
     base: 'SauceLabs',
     browserName: 'internet explorer',
-    version: '9'
+    browserVersion: '9.0',
+    platformName: 'Windows 7'
   },
   sl_ie_10: {
     base: 'SauceLabs',
     browserName: 'internet explorer',
-    version: '10'
+    browserVersion: '10.0',
+    platformName: 'Windows 8.1'
   },
   sl_ie_11: {
     base: 'SauceLabs',
     browserName: 'internet explorer',
-    version: '11'
+    browserVersion: '11.0',
+    platformName: 'Windows 8.1'
   },
   sl_edge_latest: {
     base: 'SauceLabs',
-    browserName: 'microsoftedge'
+    browserName: 'internet explorer',
+    browserVersion: 'latest-1',
+    platformName: 'Windows 10'
   }
 };
 
