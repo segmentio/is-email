@@ -45,5 +45,3 @@ jobs:
 
       - name: Run Saucelabs tests
         run: make test-browser
-
-      
