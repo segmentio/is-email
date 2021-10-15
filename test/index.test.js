@@ -17,4 +17,19 @@ describe('is-email', function() {
     assert.strictEqual(isEmail('team+45.io'), false);
     assert.strictEqual(isEmail('@segmentio.com'), false);
   });
+
+  it('only accepts 320 characters', function() {
+    // 11 characters
+    var domain = '@segment.io';
+    var local = '';
+    var email = '';
+
+    for (var i = 0; i < 310; i++) {
+      local.concat('a');
+    }
+
+    email = local.concat(domain);
+
+    assert.strictEqual(isEmail(email), false);
+  });
 });
