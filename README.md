@@ -17,3 +17,23 @@ $ npm install is-email
 ### isEmail(string)
 
 Loosely checks whether a `string` is an email address.
+
+## Usage
+
+### ES6
+
+```javascript
+import isEmail from 'is-email';
+
+isEmail('example'); // false
+isEmail('example@mail.com'); // true
+```
+
+### Common JS
+
+```javascript
+var isEmail = require('is-email');
+
+isEmail('example'); // false
+isEmail('example@mail.com'); // true
+```
